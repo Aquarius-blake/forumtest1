@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppColorsTheme {
-  Color primarySwatch;
-  Color titleBarGradientStartColor;
-  Color titleBarGradientEndColor;
+  MaterialColor primarySwatch;
+  MaterialColor titleBarGradientStartColor;
+  MaterialColor titleBarGradientEndColor;
   Color textColor;
   Color secondaryGradientColor;
 
@@ -15,6 +15,8 @@ class AppColorsTheme {
       titleBarGradientEndColor: Colors.deepPurple,
       textColor: Colors.black,
       secondaryGradientColor: Colors.grey,
+
+
   );
 
 }
