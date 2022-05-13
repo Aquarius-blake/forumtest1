@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
         theme: new ThemeData(
 
         primarySwatch: AppColorsTheme.myTheme.primarySwatch,
-    )
+    ),
+      routes: {
+
+      },
 
     );
   }
