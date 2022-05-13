@@ -1,4 +1,7 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -75,6 +78,9 @@ class LoginPage extends StatelessWidget {
                   new Container(
                     margin: const EdgeInsets.symmetric(vertical: 8.0),
                     child: new ElevatedButton(
+                      style: ButtonStyle(
+                        //find a way to change the color later
+                      ),
                       child: new Text("Register"),
                       onPressed: onPressed,
 
