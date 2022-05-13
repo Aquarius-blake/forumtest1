@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:forumtest/Assets/Colors.dart';
+import 'package:forumtest/Pages/Login.dart';
 
 
 void main(){
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: AppColorsTheme.myTheme.primarySwatch,
     ),
       routes: {
-
+        '/':      (BuildContext context) => new LoginPage(),
       },
 
     );
