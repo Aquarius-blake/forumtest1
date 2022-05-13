@@ -54,13 +54,13 @@ class LoginPage extends StatelessWidget {
                 children: <Widget>[
                   new Container(
                     margin: const EdgeInsets.symmetric(vertical: 8.0),
-                    child: new RaisedButton(
+                    child: new ElevatedButton(
                       child: new Text("Login"),
                       onPressed: onPressed,
-                      color: Colors.orange,
+
                     ),
                   ),
-                  new RaisedButton(
+                  new ElevatedButton(
                     child: new Text("Forgot Password"),
                     onPressed: onPressed,
                   ),
@@ -74,13 +74,13 @@ class LoginPage extends StatelessWidget {
                 children: <Widget>[
                   new Container(
                     margin: const EdgeInsets.symmetric(vertical: 8.0),
-                    child: new RaisedButton(
+                    child: new ElevatedButton(
                       child: new Text("Register"),
                       onPressed: onPressed,
-                      color: Colors.yellow,
+
                     ),
                   ),
-                  new RaisedButton(
+                  new ElevatedButton(
                     child: new Text("Continue as Guest"),
                     onPressed: () {Navigator.pushNamed(context, '/forum');},
                   ),
