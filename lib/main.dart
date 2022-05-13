@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:forumtest/asset/Colors.dart';
 import 'package:forumtest/Pages/Login.dart';
 
+import 'package:forumtest/Pages/ForumPage.dart';
+
 
 void main(){
 runApp(new MyApp());
@@ -21,6 +23,7 @@ class MyApp extends StatelessWidget {
     ),
       routes: {
         '/':      (BuildContext context) => new LoginPage(),
+        '/forum': (BuildContext context) => new ForumPage(title: 'Forum', ),
       },
 initialRoute: '/',
     );
