@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':      (BuildContext context) => new LoginPage(),
       },
-
+initialRoute: '/',
     );
   }
 }
