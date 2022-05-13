@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
         ),
       ),
       body: new Container(
-        color: Colors.deepPurple,
+        color: Colors.lightBlueAccent,
         padding: const EdgeInsets.all(30.0),
         child: new Column(
           children: <Widget>[
