@@ -13,7 +13,7 @@ class AppColorsTheme {
       primarySwatch: Colors.lightBlue,
       titleBarGradientStartColor : Colors.lightBlue,
       titleBarGradientEndColor: Colors.lightBlue,
-      textColor: Colors.white,
+      textColor: Colors.black,
       secondaryGradientColor: Colors.grey,
 
 
