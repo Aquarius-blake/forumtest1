@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:forumtest/asset/Colors.dart';
 
 class ForumPage extends StatefulWidget {
-  ForumPage({ required this.title}) : super();
+  ForumPage({  required this.title}) : super();
 
   final String title;
 

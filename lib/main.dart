@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     ),
       routes: {
         '/':      (BuildContext context) => new LoginPage(),
-        '/forum': (BuildContext context) => new ForumPage(title: 'Forum', ),
+        '/forum': (BuildContext context) => new ForumPage(title: 'Forum'),
       },
 initialRoute: '/',
     );
