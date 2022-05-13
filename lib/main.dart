@@ -4,6 +4,8 @@ import 'package:forumtest/Pages/Login.dart';
 
 import 'package:forumtest/Pages/ForumPage.dart';
 
+import 'Pages/ForumDetailPage.dart';
+
 
 void main(){
 runApp(new MyApp());
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':      (BuildContext context) => new LoginPage(),
         '/forum': (BuildContext context) => new ForumPage(title: 'Forum'),
+        '/forum/1': (BuildContext context) => new ForumDetailPage(),
       },
 initialRoute: '/',
     );
